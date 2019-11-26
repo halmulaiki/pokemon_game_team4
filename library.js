@@ -61,9 +61,9 @@ catchIncineroar = () => {
         .then((data => {
           console.log(data)
           pokemon = new Pokemon(data)
-          jomir.addPokemonToParty(pokemon)
+          trainer.addPokemonToParty(pokemon)
           pokemon.display()
         }))
     }
 catchIncineroar()
-let jomir = new Trainer()
+let tariner = new Trainer("jomir")
