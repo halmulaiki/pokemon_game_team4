@@ -26,7 +26,7 @@ class Pokemon {
         this.hp = data.stats[4].base_stat;
         this.attack = data.stats[5].base_stat;
         this.defense = data.stats[3].base_stat;
-        this.ability = data.abilities["0"].ability.name;
+        this.abilities = data.abilities.map(ability => ability.ability.name)  
     }
     display() {
         let grid = document.getElementById("pokedex")
@@ -49,7 +49,7 @@ class Pokemon {
         defense.innerHTML = "Defense: " + this.defense
         div.appendChild(defense);
         let ability = document.createElement('h3')
-        ability.innerHTML = "Ability: " + this.ability
+        ability.innerHTML = "Ability: " + this.abilities
         div.appendChild(ability)
         console.log(this.ability);
     }
