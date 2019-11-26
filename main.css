@@ -42,3 +42,30 @@ body {
 #pokeSprites h1 {
   background-color: white;
 }
+
+#statbox1 {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  background-color: white;
+  top: 33%;
+  left: 41%;
+}
+
+#statbox2 {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  background-color: white;
+  top: 55%;
+  left: 41%;
+}
+
+#statbox3 {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  background-color: white;
+  top: 78%;
+  left: 41%;
+}
