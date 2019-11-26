@@ -5,6 +5,8 @@ body {
   background-color: #1d1d1d;
 }
 
+/* Styling for Trainer Icons at the top of screen */
+
 #charIcons {
   display: grid;
   grid-template: repeat(1, 200px) / repeat(4, 200px);
@@ -14,11 +16,14 @@ body {
   column-gap: 10%;
   left: 12%;
   top: 4%;
+  cursor: pointer;
 }
 
 #charIcons h1 {
   background-color: white;
 }
+
+/* Styling for portraits of trainer character */
 
 #charPortrait {
   display: grid;
@@ -29,6 +34,8 @@ body {
   left: 11%;
 }
 
+/* Styling for Pokemon Sprites */
+
 #pokeSprites {
   display: grid;
   position: absolute;
@@ -37,11 +44,14 @@ body {
   top: 32%;
   left: 33%;
   row-gap: 13%;
+  cursor: pointer;
 }
 
 #pokeSprites h1 {
   background-color: white;
 }
+
+/* Styling for the statboxes associated with each Pokemon */
 
 #statbox1 {
   display: grid;
