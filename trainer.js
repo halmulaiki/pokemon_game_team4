@@ -9,7 +9,9 @@ class Trainer {
    return this.listPokemon
  }
  get(name) {
-   return name
+   for (let i = 0; i < this.all.length; i++) {
+     if (name === this.all[i].name) {
+       return this.all[i]
  }
 
 }
