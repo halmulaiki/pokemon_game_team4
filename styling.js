@@ -22,6 +22,9 @@ statbox3.style.display = 'none'
 function trainer1() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
+    statbox1.style.display = 'none'
+    statbox2.style.display = 'none'
+    statbox3.style.display = 'none'
     pokesprite1.setAttribute("src", 'img/mawile.png')
     pokesprite2.setAttribute("src", 'img/sylveon.png')
     pokesprite3.setAttribute("src", 'img/tapulele.png')
@@ -44,6 +47,9 @@ function pokestat3() {
 function trainer2() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
+    statbox1.style.display = 'none'
+    statbox2.style.display = 'none'
+    statbox3.style.display = 'none'
     pokesprite1.setAttribute("src", 'img/incineroar.png')
     pokesprite2.setAttribute("src", 'img/blaziken.png')
     pokesprite3.setAttribute("src", 'img/charizard.png')
@@ -66,6 +72,9 @@ function pokestat3() {
 function trainer3() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
+    statbox1.style.display = 'none'
+    statbox2.style.display = 'none'
+    statbox3.style.display = 'none'
     pokesprite1.setAttribute("src", 'img/flygon.png')
     pokesprite2.setAttribute("src", 'img/dragonite.png')
     pokesprite3.setAttribute("src", 'img/hydreigon.png')  
@@ -88,6 +97,9 @@ function pokestat3() {
 function trainer4() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
+    statbox1.style.display = 'none'
+    statbox2.style.display = 'none'
+    statbox3.style.display = 'none'
     pokesprite1.setAttribute("src", 'img/gengar.png')
     pokesprite2.setAttribute("src", 'img/golurk.png')
     pokesprite3.setAttribute("src", 'img/doublade.png')   
