@@ -59,7 +59,7 @@ body {
   grid-template: repeat(1, 130px) / repeat(1, 600px);
   background-color: white;
   top: 33%;
-  left: 41%;
+  left: 42%;
 }
 
 #statbox2 {
@@ -68,7 +68,7 @@ body {
   grid-template: repeat(1, 130px) / repeat(1, 600px);
   background-color: white;
   top: 55%;
-  left: 41%;
+  left: 42%;
 }
 
 #statbox3 {
@@ -77,5 +77,5 @@ body {
   grid-template: repeat(1, 130px) / repeat(1, 600px);
   background-color: white;
   top: 78%;
-  left: 41%;
+  left: 42%;
 }
