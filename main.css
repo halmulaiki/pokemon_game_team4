@@ -29,3 +29,16 @@ body {
   left: 11%;
 }
 
+#pokeSprites {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(3, 119px) / repeat(1, 100px);
+  /* background-color: white; */
+  top: 32%;
+  left: 33%;
+  row-gap: 13%;
+}
+
+#pokeSprites h1 {
+  background-color: white;
+}
