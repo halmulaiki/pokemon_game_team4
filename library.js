@@ -54,3 +54,175 @@ class Pokemon {
         console.log(this.ability);
     }
 }
+
+catchIncineroar = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/727.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchBlaziken = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/257.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchCharizard = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/6.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchFlygon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/330.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchFlygon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/330.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchHydreigon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/635.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchDragonite = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/149.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchGengar = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/94.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchGolurk = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/623.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchDoublade = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/680.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchSylveon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/700.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchMawile = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/303.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+catchTapu_lele = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/786.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+            console.log(data)
+            pokemon = new Pokemon(data)
+            trainer1.addPokemonToParty(pokemon)
+            pokemon.display()
+        }))
+}
+
+catchIncineroar()
+catchBlaziken()
+catchCharizard()
+catchFlygon()
+catchHydreigon()
+catchDragonite()
+catchGengar()
+catchGolurk()
+catchDoublade()
+catchSylveon()
+catchMawile()
+catchTapu_lele()
+
+let trainer1 = new Trainer()
