@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+  font-family: 'Quicksand';
+  background-color: #1d1d1d;
+}
+
+#charIcons {
+  display: grid;
+  grid-template: repeat(1, 200px) / repeat(4, 200px);
+  position: absolute;
+  align-items: center;
+  justify-items: center;
+  column-gap: 10%;
+  left: 12%;
+  top: 4%;
+}
+
+#charIcons h1 {
+  background-color: white;
+}
+
