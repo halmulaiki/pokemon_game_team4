@@ -20,3 +20,12 @@ body {
   background-color: white;
 }
 
+#charPortrait {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(1, 450px) / repeat(1, 300px);
+  background-color: white;
+  top: 33%;
+  left: 11%;
+}
+
