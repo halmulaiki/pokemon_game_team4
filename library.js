@@ -1,5 +1,6 @@
 class Trainer {
-    constructor() {
+    constructor(Name) {
+      this.name = name
         this.party = []
     }
     all = () => {
@@ -61,7 +62,7 @@ catchIncineroar = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer2.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -73,7 +74,7 @@ catchBlaziken = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer2.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -85,10 +86,22 @@ catchCharizard= () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer2.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
+// catchFlygon = () => {
+//     fetch("https://fizal.me/pokeapi/api/v2/id/330.json")
+//         .then((resp) => {
+//             return resp.json()
+//         })
+//         .then((data => {
+//             console.log(data)
+//             pokemon = new Pokemon(data)
+//             trainer.addPokemonToParty(pokemon)
+//             pokemon.display()
+//         }))
+// }
 catchFlygon = () => {
     fetch("https://fizal.me/pokeapi/api/v2/id/330.json")
         .then((resp) => {
@@ -97,19 +110,7 @@ catchFlygon = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
-            pokemon.display()
-        }))
-}
-catchFlygon = () => {
-    fetch("https://fizal.me/pokeapi/api/v2/id/330.json")
-        .then((resp) => {
-            return resp.json()
-        })
-        .then((data => {
-            console.log(data)
-            pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer3.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -121,7 +122,7 @@ catchHydreigon = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer3.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -133,7 +134,7 @@ catchDragonite = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer3.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -145,7 +146,7 @@ catchGengar = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer4.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -157,7 +158,7 @@ catchGolurk = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer4.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -169,7 +170,7 @@ catchDoublade = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer4.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -181,7 +182,7 @@ catchSylveon = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer1.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -193,7 +194,7 @@ catchMawile = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer1.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -205,7 +206,7 @@ catchTapu_lele = () => {
         .then((data => {
             console.log(data)
             pokemon = new Pokemon(data)
-            jomir.addPokemonToParty(pokemon)
+            trainer1.addPokemonToParty(pokemon)
             pokemon.display()
         }))
 }
@@ -221,4 +222,7 @@ catchDoublade()
 catchSylveon()
 catchMawile()
 catchTapu_lele()
-let jomir = new Trainer()
+let trainer1 = new Trainer("clair")
+let trainer2 = new Trainer("jomir")
+let trainer3 = new Trainer("brandon")
+let trainer4 = new Trainer("haroun")
