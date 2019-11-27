@@ -34,6 +34,15 @@ body {
   left: 11%;
 }
 
+/* Styling for trainer nameplate */
+
+#charName {
+  display: grid;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+}
+
 /* Styling for Pokemon Sprites */
 
 #pokeSprites {
@@ -92,5 +101,4 @@ body {
 #siteName {
   display: grid;
   position: absolute;
-  
 }
