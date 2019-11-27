@@ -62,7 +62,6 @@ body {
   left: 42%;
 }
 
-
 #statbox1 {
   display: grid;
   position: relative;
@@ -88,4 +87,10 @@ body {
   background-color: white;
   /* top: 78%;
   left: 42%; */
+}
+
+#siteName {
+  display: grid;
+  position: absolute;
+  
 }
