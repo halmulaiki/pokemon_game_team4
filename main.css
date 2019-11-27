@@ -53,29 +53,39 @@ body {
 
 /* Styling for the statboxes associated with each Pokemon */
 
-#statbox1 {
+#statbox {
   display: grid;
   position: absolute;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
-  background-color: white;
+  grid-template: repeat(3,130px) / repeat(1, 600px);
   top: 33%;
+  row-gap: 10%;
   left: 42%;
+}
+
+
+#statbox1 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 33%;
+  left: 42%; */
 }
 
 #statbox2 {
   display: grid;
-  position: absolute;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
   background-color: white;
-  top: 55%;
-  left: 42%;
+  /* top: 55%;
+  left: 42%; */
 }
 
 #statbox3 {
   display: grid;
-  position: absolute;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
   background-color: white;
-  top: 78%;
-  left: 42%;
+  /* top: 78%;
+  left: 42%; */
 }

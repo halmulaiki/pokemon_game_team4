@@ -1,6 +1,7 @@
 // Defining the divs from HTML to Javascript for manipulation
 
 let charPortrait = document.getElementById('charPortrait')
+let gymLeader = document.getElementById('gymLeader')
 let pokeSprites = document.getElementById('pokeSprites')
 let statbox1 = document.getElementById('statbox1')
 let statbox2 = document.getElementById('statbox2')
@@ -25,6 +26,7 @@ function trainer1() {
     statbox1.style.display = 'none'
     statbox2.style.display = 'none'
     statbox3.style.display = 'none'
+    gymLeader.setAttribute("src", 'img/cynthiatrainer.jpg')
     pokesprite1.setAttribute("src", 'img/mawile.png')
     pokesprite2.setAttribute("src", 'img/sylveon.png')
     pokesprite3.setAttribute("src", 'img/tapulele.png')
@@ -50,6 +52,7 @@ function trainer2() {
     statbox1.style.display = 'none'
     statbox2.style.display = 'none'
     statbox3.style.display = 'none'
+    gymLeader.setAttribute("src", 'img/redtrainer.jpg')
     pokesprite1.setAttribute("src", 'img/incineroar.png')
     pokesprite2.setAttribute("src", 'img/blaziken.png')
     pokesprite3.setAttribute("src", 'img/charizard.png')
@@ -75,6 +78,7 @@ function trainer3() {
     statbox1.style.display = 'none'
     statbox2.style.display = 'none'
     statbox3.style.display = 'none'
+    gymLeader.setAttribute("src", 'img/goldtrainer.jpg')
     pokesprite1.setAttribute("src", 'img/flygon.png')
     pokesprite2.setAttribute("src", 'img/dragonite.png')
     pokesprite3.setAttribute("src", 'img/hydreigon.png')  
