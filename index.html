@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="main.css">
+<title>Document</title>
 </head>
 <body>
-<h1>The Elite 3</h1>
+
+<!-- Icons at top of screen -->
+
+<div id='charIcons'>
+  <img src='img/testicon.png' onclick='addTrainers1()'>
+  <img src='img/testicon.png' onclick='addTrainers2()'>
+  <img src='img/testicon.png' onclick='addTrainers3()'>
+  <img src='img/testicon.png' onclick='addTrainers4()'>
+</div>
+
+<!-- Portraits for Trainers -->
+
+<div id='charPortrait'>
+  <h1>test</h1>
+</div>
+
+<!-- Sprites for Trainer Pokemon -->
+
+<div id='pokeSprites'>
+  <img id=pokesprite1 onclick='pokestat1(); queryPokemonAPI("charizard")' >
+  <img id=pokesprite2 onclick='pokestat2(); queryPokemonAPI("ditto")'>
+  <img id=pokesprite3 onclick='pokestat3(); queryPokemonAPI("turtwig")'>
+</div>
+
+<!-- Boxes for Pokemon Statistics. statbox1 is for the 1st pokemon in party, statbox2 for the 2nd, and statbox3 for the 3rd -->
+<div class="stat">
+
+  <div id='statbox1' onclick=>
+    <!-- <h1>test</h1> -->
+
+  </div>
+
+  <div id='statbox2'>
+    <h1>best</h1>
+
+  </div>
+
+  <div id='statbox3'>
+    <h1>test</h1>
+  </div>
+</div>
+
+<script src='styling.js'></script>
+<script src='library.js'></script>
 </body>
 </html>
