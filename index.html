@@ -1,54 +1,145 @@
- <ul id="pokedex"></ul>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="main.css">
-<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Elite Four</title>
 </head>
 <body>
 
-<!-- Icons at top of screen -->
+  <!-- Icons at top of screen -->
 
-<div id='charIcons'>
-  <img src='img/testicon.png' onclick='trainer1()'>
-  <img src='img/testicon.png' onclick='trainer2()'>
-  <img src='img/testicon.png' onclick='trainer3()'>
-  <img src='img/testicon.png' onclick='trainer4()'>
-</div>
-
-<!-- Portraits for Trainers -->
-
-<div id='charPortrait'>
-  <h1>test</h1>
-</div>
-
-<!-- Sprites for Trainer Pokemon -->
-
-<div id='pokeSprites'>
-  <img id=pokesprite1 onclick='pokestat1()'>
-  <img id=pokesprite2 onclick='pokestat2()'>
-  <img id=pokesprite3 onclick='pokestat3()'>
-</div>
-
-<!-- Boxes for Pokemon Statistics. statbox1 is for the 1st pokemon in party, statbox2 for the 2nd, and statbox3 for the 3rd -->
-
-  <div id='statbox1' onclick=>
-    <h1>test</h1>
+  <div id='charIcons'>
+    <img src='img/cynthia.png' onclick='trainers1()' width='80%'>
+    <img src='img/red.png' onclick='trainers2()' width='80%'>
+    <img src='img/gold.png' onclick='trainers3()' width='80%'>
+    <img src='img/james.png' onclick='trainers4()' width='80%'>
   </div>
 
-  <div id='statbox2'>
-    <h1>test</h1>
+  <!-- Portraits for Trainers -->
+
+  <div id='charPortrait'>
+    <img id='gymLeader'>
   </div>
 
-  <div id='statbox3'>
-    <h1>test</h1>
+  <!-- Nameplate for selected trainer -->
+
+  <div id='charName'>
+    <img id='trainerName'>
   </div>
 
+  <!-- Sprites for Trainer Pokemon -->
 
-<script src='styling.js'></script>
+  <div id='pokeSprites'>
+    <img id=pokesprite1 onclick=''>
+    <img id=pokesprite2 onclick=''>
+    <img id=pokesprite3 onclick=''>
+  </div>
+
+  <!-- Boxes for Pokemon Statistics. statbox1 is for the 1st pokemon in party, statbox2 for the 2nd, and statbox3 for the 3rd. Each trainer has their own div -->
+
+  <div id='claireStatbox'>
+
+
+    <div id='statbox1' onclick="myfunction(25)">
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+    <div id='statbox2'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+    <div id='statbox3'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Jomir Statbox -->
+
+  <div id='jomirStatbox'>
+
+
+    <div id='statbox4'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+    <div id='statbox5'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+    <div id='statbox6'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Brandon Statbox -->
+
+  <div id='brandonStatbox'>
+
+
+    <div id='statbox7'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+    <div id='statbox8'>
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+    <div id='statbox9' onclick="myfunction(257)">
+      <div id="pokedex">
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Haroun Statbox -->
+
+  <div id='harounStatbox'>
+
+
+    <div id='statbox10'>
+      <h1>Under Construction</h1>
+    </div>
+
+    <div id='statbox11'>
+      <h1>Under Construction</h1>
+    </div>
+
+    <div id='statbox12'>
+<div id="pokedex">
+
+</div>
+    </div>
+
+  </div>
+
+  <!-- Site Logo Div -->
+
+  <div id='siteName'>
+    <img src='img/elitefoursideways.png'>
+  </div>
+  <script src='library.js'></script>
+  <script src='styling.js'></script>
 </body>
 </html>

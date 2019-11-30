@@ -34,6 +34,72 @@ body {
   left: 11%;
 }
 
+/* Fade in and out classes for JS insertion */
+
+.fadeIn {
+  animation: fadeIn 1.1s 1 0s linear;
+}
+
+.fadeOut {
+  animation: fadeOut 1.1s 1 0s linear;
+}
+
+/* Fade-in animation that is added to IDs via JS */
+
+@keyframes fadeIn {
+  0%{
+      opacity: 0;
+      }
+  16%{
+      opacity: 0.2;
+      }
+  40%{
+      opacity: 0.4;
+      }
+  66%{
+      opacity: 0.6;
+      }
+  85%{
+      opacity: 0.8;
+      }
+  100%{
+      opacity: 1;
+      }
+}
+
+/* Fadeout Animation that is added to IDs via JS */
+
+@keyframes fadeOut {
+  0%{
+      opacity: 1;
+      }
+  16%{
+      opacity: 0.8;
+      }
+  40%{
+      opacity: 0.6;
+      }
+  66%{
+      opacity: 0.4;
+      }
+  85%{
+      opacity: 0.2;
+      }
+  100%{
+      opacity: 0;
+      }
+}
+
+
+/* Styling for trainer nameplate */
+
+#charName {
+  display: grid;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+}
+
 /* Styling for Pokemon Sprites */
 
 #pokeSprites {
@@ -53,29 +119,157 @@ body {
 
 /* Styling for the statboxes associated with each Pokemon */
 
-#statbox1 {
+#claireStatbox {
   display: grid;
   position: absolute;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
-  background-color: white;
+  grid-template: repeat(3,130px) / repeat(1, 600px);
   top: 33%;
+  row-gap: 10%;
   left: 42%;
+}
+
+#jomirStatbox {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(3,130px) / repeat(1, 600px);
+  top: 33%;
+  row-gap: 10%;
+  left: 42%;
+}
+
+#brandonStatbox {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(3,130px) / repeat(1, 600px);
+  top: 33%;
+  row-gap: 10%;
+  left: 42%;
+}
+
+#harounStatbox {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(3,130px) / repeat(1, 600px);
+  top: 33%;
+  row-gap: 10%;
+  left: 42%;
+}
+
+#statbox1 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 33%;
+  left: 42%; */
 }
 
 #statbox2 {
   display: grid;
-  position: absolute;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
   background-color: white;
-  top: 55%;
-  left: 42%;
+  /* top: 55%;
+  left: 42%; */
 }
 
 #statbox3 {
   display: grid;
-  position: absolute;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
   background-color: white;
-  top: 78%;
-  left: 42%;
+  /* top: 78%;
+  left: 42%; */
+}
+
+/* Jomir Statbox Divs */
+
+#statbox4 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox5 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox6 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+/* Brandon Statbox Divs */
+
+#statbox7 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox8 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox9 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+/* Haroun Statbox Divs */
+
+#statbox10 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox11 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox12 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#siteName {
+  display: grid;
+  position: absolute;
 }
