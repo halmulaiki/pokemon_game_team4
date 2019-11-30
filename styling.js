@@ -15,18 +15,54 @@ let pokesprite3 = document.getElementById('pokesprite3')
 
 charPortrait.style.display = 'none'
 pokeSprites.style.display = 'none'
-statbox.style.display = 'none'
+claireStatbox.style.display = 'none'
+jomirStatbox.style.display = 'none'
+brandonStatbox.style.display = 'none'
+harounStatbox.style.display = 'none'
 
 function statboxOpen() {
-    statbox.style.display = 'grid'
+    claireStatbox.style.display = 'grid'
 }
+
+// function trainerpokeAnimation() {
+//     charPortrait.classList.add('fadeIn')
+//     pokeSprites.classList.add('fadeIn')
+//     charName.classList.add('fadeIn')
+//     var boxesOpen = 'true'
+//     boxesOpen = true
+// }
+
+// function checkBox() {
+//     if (boxesOpen = true) {
+//         setTimeout(() => {
+//             charPortrait.classList.remove('fadeIn')
+//             pokeSprites.classList.remove('fadeIn')
+//             charName.classList.remove('fadeIn')
+//             charPortrait.classList.add('fadeOut')
+//             pokeSprites.classList.add('fadeOut')
+//             charName.classList.add('fadeOut')
+//         }, 700);
+//     } else {
+// }
 
 // Function to reveal trainer 1 information
 
 function trainer1() {
+
+    // Adding animations to portraits, sprites and changing css displays
+    charPortrait.classList.add('fadeIn')
+    pokeSprites.classList.add('fadeIn')
+    charName.classList.add('fadeIn')
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
-    statbox.style.display = 'none'
+
+    // Closing all statboxes to clean screen
+    claireStatbox.style.display = 'none'
+    jomirStatbox.style.display = 'none'
+    brandonStatbox.style.display = 'none'
+    harounStatbox.style.display = 'none'
+
+    // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/cynthiatrainer.jpg')
     trainerName.setAttribute("src", 'img/claire.png')
     pokesprite1.setAttribute("src", 'img/mawile.png')
@@ -37,9 +73,21 @@ function trainer1() {
 // Function to reveal Trainer 2 information
 
 function trainer2() {
+
+    // Adding animations to portraits, sprites and changing css displays
+    charPortrait.classList.add('fadeIn')
+    pokeSprites.classList.add('fadeIn')
+    charName.classList.add('fadeIn')
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
-    statbox.style.display = 'none'
+
+    // Closing all statboxes to clean screen
+    claireStatbox.style.display = 'none'
+    jomirStatbox.style.display = 'none'
+    brandonStatbox.style.display = 'none'
+    harounStatbox.style.display = 'none'
+
+    // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/redtrainer.jpg')
     trainerName.setAttribute("src", 'img/jomir.png')
     pokesprite1.setAttribute("src", 'img/incineroar.png')
@@ -50,9 +98,21 @@ function trainer2() {
 // Function to reveal Trainer 3 information
 
 function trainer3() {
+
+    // Adding animations to portraits, sprites and changing css displays
+    charPortrait.classList.add('fadeIn')
+    pokeSprites.classList.add('fadeIn')
+    charName.classList.add('fadeIn')
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
-    statbox.style.display = 'none'
+    
+    // Closing all statboxes to clean screen
+    claireStatbox.style.display = 'none'
+    jomirStatbox.style.display = 'none'
+    brandonStatbox.style.display = 'none'
+    harounStatbox.style.display = 'none'
+
+    // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/goldtrainer.jpg')
     trainerName.setAttribute("src", 'img/brandon.png')
     pokesprite1.setAttribute("src", 'img/flygon.png')
@@ -63,9 +123,21 @@ function trainer3() {
 // Function to reveal Trainer 4 information
 
 function trainer4() {
+
+    // Adding animations to portraits, sprites and changing css displays
+    charPortrait.classList.add('fadeIn')
+    pokeSprites.classList.add('fadeIn')
+    charName.classList.add('fadeIn')
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
-    statbox.style.display = 'none'
+
+    // Closing all statboxes to clean screen
+    claireStatbox.style.display = 'none'
+    jomirStatbox.style.display = 'none'
+    brandonStatbox.style.display = 'none'
+    harounStatbox.style.display = 'none'
+
+    // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/jamestrainer.jpg')
     trainerName.setAttribute("src", 'img/haroun.png')
     pokesprite1.setAttribute("src", 'img/gengar.png')
