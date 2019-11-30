@@ -182,6 +182,93 @@ body {
   left: 42%; */
 }
 
+/* Jomir Statbox Divs */
+
+#statbox4 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox5 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox6 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+/* Brandon Statbox Divs */
+
+#statbox7 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox8 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox9 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+/* Haroun Statbox Divs */
+
+#statbox10 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox11 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox12 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
 #siteName {
   display: grid;
   position: absolute;
