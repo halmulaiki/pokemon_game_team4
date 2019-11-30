@@ -155,14 +155,25 @@ body {
   left: 42%;
 }
 
+#statboxinfo {
+  position: absolute;
+}
+
 #statbox1 {
   display: grid;
   position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  grid-template: repeat(1, 130px) / repeat(1, 600px);
   background-color: white;
   /* top: 33%;
   left: 42%; */
 }
+
+#statbox1 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 
 #statbox2 {
   display: grid;
@@ -171,6 +182,12 @@ body {
   background-color: white;
   /* top: 55%;
   left: 42%; */
+}
+
+#statbox2 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
 }
 
 #statbox3 {
@@ -182,6 +199,11 @@ body {
   left: 42%; */
 }
 
+#statbox3 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
 /* Jomir Statbox Divs */
 
 #statbox4 {
@@ -193,6 +215,12 @@ body {
   left: 42%; */
 }
 
+#statbox4 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 #statbox5 {
   display: grid;
   position: relative;
@@ -202,6 +230,12 @@ body {
   left: 42%; */
 }
 
+#statbox5 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 #statbox6 {
   display: grid;
   position: relative;
@@ -209,6 +243,12 @@ body {
   background-color: white;
   /* top: 78%;
   left: 42%; */
+}
+
+#statbox6 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
 }
 
 /* Brandon Statbox Divs */
@@ -222,6 +262,12 @@ body {
   left: 42%; */
 }
 
+#statbox7 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 #statbox8 {
   display: grid;
   position: relative;
@@ -231,6 +277,12 @@ body {
   left: 42%; */
 }
 
+#statbox8 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 #statbox9 {
   display: grid;
   position: relative;
@@ -238,6 +290,12 @@ body {
   background-color: white;
   /* top: 78%;
   left: 42%; */
+}
+
+#statbox9 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
 }
 
 /* Haroun Statbox Divs */
@@ -251,6 +309,12 @@ body {
   left: 42%; */
 }
 
+#statbox10 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 #statbox11 {
   display: grid;
   position: relative;
@@ -260,6 +324,12 @@ body {
   left: 42%; */
 }
 
+#statbox11 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
+}
+
 #statbox12 {
   display: grid;
   position: relative;
@@ -267,6 +337,12 @@ body {
   background-color: white;
   /* top: 78%;
   left: 42%; */
+}
+
+#statbox12 h1 {
+  position: absolute;
+  left: 4%;
+  color: #ffffff;
 }
 
 #siteName {
