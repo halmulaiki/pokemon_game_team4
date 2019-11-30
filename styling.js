@@ -20,39 +20,52 @@ jomirStatbox.style.display = 'none'
 brandonStatbox.style.display = 'none'
 harounStatbox.style.display = 'none'
 
-function statboxOpen() {
+function clairestatboxOpen() {
     claireStatbox.style.display = 'grid'
 }
+function jomirstatboxOpen() {
+    jomirStatbox.style.display = 'grid'
+}
 
-// function trainerpokeAnimation() {
-//     charPortrait.classList.add('fadeIn')
-//     pokeSprites.classList.add('fadeIn')
-//     charName.classList.add('fadeIn')
-//     var boxesOpen = 'true'
-//     boxesOpen = true
-// }
+function brandonstatboxOpen() {
+    brandonStatbox.style.display = 'grid'
+}
 
-// function checkBox() {
-//     if (boxesOpen = true) {
-//         setTimeout(() => {
-//             charPortrait.classList.remove('fadeIn')
-//             pokeSprites.classList.remove('fadeIn')
-//             charName.classList.remove('fadeIn')
-//             charPortrait.classList.add('fadeOut')
-//             pokeSprites.classList.add('fadeOut')
-//             charName.classList.add('fadeOut')
-//         }, 700);
-//     } else {
-// }
+function harounstatboxOpen() {
+    harounStatbox.style.display = 'grid'
+}
+
+function trainerpokeAnimation() {
+    charPortrait.classList.add('fadeIn')
+    pokeSprites.classList.add('fadeIn')
+    charName.classList.add('fadeIn')
+    var boxesOpen = 'true'
+    boxesOpen = true
+}
+
+function checkBox() {
+    if (boxesOpen = true) {
+        charPortrait.classList.remove('fadeIn')
+        pokeSprites.classList.remove('fadeIn')
+        charName.classList.remove('fadeIn')
+        charPortrait.classList.add('fadeOut')
+        pokeSprites.classList.add('fadeOut')
+        charName.classList.add('fadeOut')
+        setTimeout(() => {
+            charPortrait.style.display = 'none'
+            pokeSprites.style.display = 'none'
+            charName.style.display = 'none'
+        }, 1500);
+    } else {
+}
+}
 
 // Function to reveal trainer 1 information
 
 function trainer1() {
 
     // Adding animations to portraits, sprites and changing css displays
-    charPortrait.classList.add('fadeIn')
-    pokeSprites.classList.add('fadeIn')
-    charName.classList.add('fadeIn')
+    trainerpokeAnimation()
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
 
@@ -68,7 +81,11 @@ function trainer1() {
     pokesprite1.setAttribute("src", 'img/mawile.png')
     pokesprite2.setAttribute("src", 'img/sylveon.png')
     pokesprite3.setAttribute("src", 'img/tapulele.png')
+    pokesprite1.setAttribute("onclick", 'clairestatboxOpen()')
+    pokesprite2.setAttribute("onclick", 'clairestatboxOpen()')
+    pokesprite3.setAttribute("onclick", 'clairestatboxOpen()') 
 }
+
 
 // Function to reveal Trainer 2 information
 
@@ -93,6 +110,9 @@ function trainer2() {
     pokesprite1.setAttribute("src", 'img/incineroar.png')
     pokesprite2.setAttribute("src", 'img/blaziken.png')
     pokesprite3.setAttribute("src", 'img/charizard.png')
+    pokesprite1.setAttribute("onclick", 'jomirstatboxOpen()')
+    pokesprite2.setAttribute("onclick", 'jomirstatboxOpen()')
+    pokesprite3.setAttribute("onclick", 'jomirstatboxOpen()') 
 }
 
 // Function to reveal Trainer 3 information
@@ -117,7 +137,10 @@ function trainer3() {
     trainerName.setAttribute("src", 'img/brandon.png')
     pokesprite1.setAttribute("src", 'img/flygon.png')
     pokesprite2.setAttribute("src", 'img/dragonite.png')
-    pokesprite3.setAttribute("src", 'img/hydreigon.png')  
+    pokesprite3.setAttribute("src", 'img/hydreigon.png')
+    pokesprite1.setAttribute("onclick", 'brandonstatboxOpen()')
+    pokesprite2.setAttribute("onclick", 'brandonstatboxOpen()')
+    pokesprite3.setAttribute("onclick", 'brandonstatboxOpen()') 
 }
 
 // Function to reveal Trainer 4 information
@@ -142,5 +165,8 @@ function trainer4() {
     trainerName.setAttribute("src", 'img/haroun.png')
     pokesprite1.setAttribute("src", 'img/gengar.png')
     pokesprite2.setAttribute("src", 'img/golurk.png')
-    pokesprite3.setAttribute("src", 'img/doublade.png')   
+    pokesprite3.setAttribute("src", 'img/doublade.png')
+    pokesprite1.setAttribute("onclick", 'harounstatboxOpen()')
+    pokesprite2.setAttribute("onclick", 'harounstatboxOpen()') 
+    pokesprite3.setAttribute("onclick", 'harounstatboxOpen()') 
 }
