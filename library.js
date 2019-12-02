@@ -38,44 +38,176 @@ class Pokemon {
         }
     }
 }
-//
-// function queryPokemonAPI (name)  {
-//  fetch(`https://fizal.me/pokeapi/api/v2/name/${name}.json`).then((resp) =>{
-//  return resp.json()})
-//  .then((data) => {
-//     let pokemon = new Pokemon(data)
-//     console.log(data)
-//     trainer1.addPokemonToParty(pokemon)
-//     let pokeGrid = document.getElementById('pokedex')
-//     let grid = document.createElement('div')
-//     grid.id = (`stat-grid`)
-//     pokeGrid.appendChild(grid)
-//     let nameP = document.createElement('p')
-//     nameP.innerText = `${trainer1.party[trainer1.party.length-1].name}`
-//     nameP.id = `name`
-//     grid.appendChild(nameP)
-//     let idP = document.createElement('p')
-//     idP.innerText = `#${trainer1.party[trainer1.party.length-1].id}`
-//     idP.id = `idNum`
-//     grid.appendChild(idP)
-//     let hp = document.createElement('p')
-//     hp.innerText = `HP: ${trainer1.party[trainer1.party.length-1].stats.hp}`
-//     hp.id = `hp`
-//     grid.appendChild(hp)
-//     let atk = document.createElement('p')
-//     atk.innerText = `Attack: ${trainer1.party[trainer1.party.length-1].stats.attack}`
-//     atk.id = 'attack'
-//     grid.appendChild(atk)
-//     let def = document.createElement('p')
-//     def.innerText = `Defense: ${trainer1.party[trainer1.party.length-1].stats.defense}`
-//     def.id = 'defense'
-//     grid.appendChild(def)
-//
-// })
-// }
+catchIncineroar = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/727.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
 
-// queryPokemonAPI("mewto")
-let trainer1 = new Trainer('Jomir')
-let trainer2 = new Trainer('Claire')
-let trainer3 = new Trainer('Haroun')
-let trainer4 = new Trainer('Brandon')
+            pokemon = new Pokemon(data)
+            trainers2.addPokemonToParty(pokemon)
+
+        }))
+}
+catchBlaziken = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/257.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers2.addPokemonToParty(pokemon)
+
+        }))
+}
+catchCharizard= () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/6.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers2.addPokemonToParty(pokemon)
+
+        }))
+}
+catchFlygon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/330.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers3.addPokemonToParty(pokemon)
+
+        }))
+}
+
+catchHydreigon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/635.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers4.addPokemonToParty(pokemon)
+
+        }))
+}
+catchDragonite = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/149.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers3.addPokemonToParty(pokemon)
+
+        }))
+}
+catchGengar = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/94.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers3.addPokemonToParty(pokemon)
+
+        }))
+}
+catchGolurk = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/623.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers4.addPokemonToParty(pokemon)
+
+        }))
+}
+catchDoublade = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/680.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers4.addPokemonToParty(pokemon)
+
+        }))
+}
+catchSylveon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/700.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers1.addPokemonToParty(pokemon)
+
+        }))
+}
+catchMawile = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/303.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers1.addPokemonToParty(pokemon)
+
+        }))
+}
+catchTapu_lele = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/786.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers1.addPokemonToParty(pokemon)
+
+        }))
+}
+catchIncineroar()
+catchBlaziken()
+catchCharizard()
+catchFlygon()
+catchHydreigon()
+catchDragonite()
+catchGengar()
+catchGolurk()
+catchDoublade()
+catchSylveon()
+catchMawile()
+catchTapu_lele()
+// myfunction(303)// statbox1
+// myfunction(700)// statbox2
+// myfunction(786)// statbox3
+// myfunction(727)// statbox4
+// myfunction(257)// statbox5
+// myfunction(6)// statbox6
+// myfunction(330)// statbox7
+// myfunction(149)// statbox8
+// myfunction(635)//statbox9
+// myfunction(94)// statbox10
+// myfunction(623)// statbox11
+// myfunction(680)// statbox12
+let trainers2 = new Trainer('Jomir')
+let trainers1 = new Trainer('Claire')
+let trainers4 = new Trainer('Haroun')
+let trainers3 = new Trainer('Brandon')

@@ -182,7 +182,7 @@ function trainers4() {
 // myfunction(94)// statbox10
 // myfunction(623)// statbox11
 // myfunction(680)// statbox12
-// myfunction(25)
+//myfunction(25)
 function myfunction  (id) {
   // console.log("asdfsdfsadfasdfasdfsdafsdfsdafsd");
  fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`).then((resp) =>{
