@@ -38,90 +38,42 @@
     <img id=pokesprite3 onclick=''>
   </div>
 
-  <!-- Boxes for Pokemon Statistics. statbox1 is for the 1st pokemon in party, statbox2 for the 2nd, and statbox3 for the 3rd. Each trainer has their own div -->
+  <!-- Boxes for Pokemon Statistics. statbox1 is for the 1st pokemon in party, statbox2 for the 2nd, and statbox3 for the 3rd. Each trainer shares this one div and list, using appendchild to plug in information gathered from the API call -->
 
-  <div id='claireStatbox'>
+  <div id='Statbox'>
 
 
     <div id='statbox1'>
       <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
+      <ul id='stats1'>
+        <li id='name1'>Name: </li>
+        <li id='hp1'>HP: </li>
+        <li id='atk1'>ATK: </li>
+        <li id='def1'>DEF: </li>
+        <li id='ability1'>Abilities: </li>
+      </ul>
     </div>
 
     <div id='statbox2'>
       <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
+      <ul id='stats2'>
+        <li id='name2'>Name: </li>
+        <li id='hp2'>HP: </li>
+        <li id='atk2'>ATK: </li>
+        <li id='def2'>DEF: </li>
+        <li id='ability2'>Abilities: </li>
+      </ul>
     </div>
 
     <div id='statbox3'>
         <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-  </div>
-
-  <!-- Jomir Statbox -->
-
-  <div id='jomirStatbox'>
-
-
-    <div id='statbox4'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-    <div id='statbox5'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-    <div id='statbox6'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-  </div>
-
-  <!-- Brandon Statbox -->
-
-  <div id='brandonStatbox'>
-
-
-    <div id='statbox7'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-    <div id='statbox8'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-    <div id='statbox9'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-  </div>
-
-  <!-- Haroun Statbox -->
-
-  <div id='harounStatbox'>
-
-
-    <div id='statbox10'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-    <div id='statbox11'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
-    </div>
-
-    <div id='statbox12'>
-      <img src='img/teststatborder.png'>
-      <h1>Under Construction</h1>
+        <ul id='stats3'>
+          <li id='name3'>Name: </li>
+          <li id='hp3'>HP: </li>
+          <li id='atk3'>ATK: </li>
+          <li id='def3'>DEF: </li>
+          <li id='ability3'>Abilities: </li>
+        </ul>
     </div>
 
   </div>
@@ -132,6 +84,7 @@
     <img src='img/elitefoursideways.png'>
   </div>
 
+  <script src='trainer.js'></script>
   <script src='styling.js'></script>
 </body>
 </html>

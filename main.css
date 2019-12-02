@@ -117,9 +117,9 @@ body {
   background-color: white;
 }
 
-/* Styling for the statboxes associated with each Pokemon */
+/* Styling for the statboxes associated with each Pokemon. Each UL styling is for the statbox itself */
 
-#claireStatbox {
+#Statbox {
   display: grid;
   position: absolute;
   grid-template: repeat(3,130px) / repeat(1, 600px);
@@ -128,32 +128,6 @@ body {
   left: 42%;
 }
 
-#jomirStatbox {
-  display: grid;
-  position: absolute;
-  grid-template: repeat(3,130px) / repeat(1, 600px);
-  top: 33%;
-  row-gap: 10%;
-  left: 42%;
-}
-
-#brandonStatbox {
-  display: grid;
-  position: absolute;
-  grid-template: repeat(3,130px) / repeat(1, 600px);
-  top: 33%;
-  row-gap: 10%;
-  left: 42%;
-}
-
-#harounStatbox {
-  display: grid;
-  position: absolute;
-  grid-template: repeat(3,130px) / repeat(1, 600px);
-  top: 33%;
-  row-gap: 10%;
-  left: 42%;
-}
 
 #statboxinfo {
   position: absolute;
@@ -162,16 +136,19 @@ body {
 #statbox1 {
   display: grid;
   position: relative;
-  grid-template: repeat(1, 130px) / repeat(1, 600px);
+  grid-template: repeat(1, 130px) / repeat(4, 150px);
   background-color: white;
   /* top: 33%;
   left: 42%; */
 }
 
-#statbox1 h1 {
+#statbox1 ul {
+  display: grid;
+  grid-template: repeat(1, 130px) / repeat(5, 96px);
   position: absolute;
-  left: 4%;
+  left: 0%;
   color: #ffffff;
+  list-style: none;
 }
 
 
@@ -184,10 +161,13 @@ body {
   left: 42%; */
 }
 
-#statbox2 h1 {
+#statbox2 ul {
+  display: grid;
+  grid-template: repeat(1, 130px) / repeat(5, 96px);
   position: absolute;
-  left: 4%;
+  left: 0%;
   color: #ffffff;
+  list-style: none;
 }
 
 #statbox3 {
@@ -199,151 +179,16 @@ body {
   left: 42%; */
 }
 
-#statbox3 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-/* Jomir Statbox Divs */
-
-#statbox4 {
+#statbox3 ul {
   display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox4 h1 {
+  grid-template: repeat(1, 130px) / repeat(5, 96px);
   position: absolute;
-  left: 4%;
+  left: 0%;
   color: #ffffff;
+  list-style: none;
 }
 
-#statbox5 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox5 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-#statbox6 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox6 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-/* Brandon Statbox Divs */
-
-#statbox7 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox7 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-#statbox8 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox8 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-#statbox9 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox9 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-/* Haroun Statbox Divs */
-
-#statbox10 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox10 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-#statbox11 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox11 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
-
-#statbox12 {
-  display: grid;
-  position: relative;
-  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
-  background-color: white;
-  /* top: 78%;
-  left: 42%; */
-}
-
-#statbox12 h1 {
-  position: absolute;
-  left: 4%;
-  color: #ffffff;
-}
+/* Simple styling for ELITE FOUR Logo on the left side of screen */
 
 #siteName {
   display: grid;

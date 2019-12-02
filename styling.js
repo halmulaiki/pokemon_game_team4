@@ -15,24 +15,11 @@ let pokesprite3 = document.getElementById('pokesprite3')
 
 charPortrait.style.display = 'none'
 pokeSprites.style.display = 'none'
-claireStatbox.style.display = 'none'
-jomirStatbox.style.display = 'none'
-brandonStatbox.style.display = 'none'
-harounStatbox.style.display = 'none'
+Statbox.style.display = 'none'
 
-function clairestatboxOpen() {
-    claireStatbox.style.display = 'grid'
-}
-function jomirstatboxOpen() {
-    jomirStatbox.style.display = 'grid'
-}
 
-function brandonstatboxOpen() {
-    brandonStatbox.style.display = 'grid'
-}
-
-function harounstatboxOpen() {
-    harounStatbox.style.display = 'grid'
+function statboxOpen() {
+    Statbox.style.display = 'grid'
 }
 
 function trainerpokeAnimation() {
@@ -60,7 +47,7 @@ function checkBox() {
 }
 }
 
-// Function to reveal trainer 1 information
+// Function to reveal trainer 1 (Claire) information
 
 function trainer1() {
 
@@ -69,11 +56,14 @@ function trainer1() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
 
+    // Calling API's to fill Trainer Pokemon Info
+    pokemonAPI1(303)
+    pokemonAPI2(700)
+    pokemonAPI3(786)
+
     // Closing all statboxes to clean screen
-    claireStatbox.style.display = 'none'
-    jomirStatbox.style.display = 'none'
-    brandonStatbox.style.display = 'none'
-    harounStatbox.style.display = 'none'
+    Statbox.style.display = 'none'
+    
 
     // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/cynthiatrainer.jpg')
@@ -81,13 +71,13 @@ function trainer1() {
     pokesprite1.setAttribute("src", 'img/mawile.png')
     pokesprite2.setAttribute("src", 'img/sylveon.png')
     pokesprite3.setAttribute("src", 'img/tapulele.png')
-    pokesprite1.setAttribute("onclick", 'clairestatboxOpen()')
-    pokesprite2.setAttribute("onclick", 'clairestatboxOpen()')
-    pokesprite3.setAttribute("onclick", 'clairestatboxOpen()') 
+    pokesprite1.setAttribute("onclick", 'statboxOpen()')
+    pokesprite2.setAttribute("onclick", 'statboxOpen()')
+    pokesprite3.setAttribute("onclick", 'statboxOpen()') 
 }
 
 
-// Function to reveal Trainer 2 information
+// Function to reveal Trainer 2 (Jomir) information
 
 function trainer2() {
 
@@ -98,11 +88,13 @@ function trainer2() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
 
+    // Calling API's to fill Trainer Pokemon Info
+    pokemonAPI1(727)
+    pokemonAPI2(257)
+    pokemonAPI3(006)
+
     // Closing all statboxes to clean screen
-    claireStatbox.style.display = 'none'
-    jomirStatbox.style.display = 'none'
-    brandonStatbox.style.display = 'none'
-    harounStatbox.style.display = 'none'
+    Statbox.style.display = 'none'
 
     // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/redtrainer.jpg')
@@ -110,12 +102,12 @@ function trainer2() {
     pokesprite1.setAttribute("src", 'img/incineroar.png')
     pokesprite2.setAttribute("src", 'img/blaziken.png')
     pokesprite3.setAttribute("src", 'img/charizard.png')
-    pokesprite1.setAttribute("onclick", 'jomirstatboxOpen()')
-    pokesprite2.setAttribute("onclick", 'jomirstatboxOpen()')
-    pokesprite3.setAttribute("onclick", 'jomirstatboxOpen()') 
+    pokesprite1.setAttribute("onclick", 'statboxOpen()')
+    pokesprite2.setAttribute("onclick", 'statboxOpen()')
+    pokesprite3.setAttribute("onclick", 'statboxOpen()') 
 }
 
-// Function to reveal Trainer 3 information
+// Function to reveal Trainer 3 (Brandon) information
 
 function trainer3() {
 
@@ -125,12 +117,15 @@ function trainer3() {
     charName.classList.add('fadeIn')
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
+
+    // Calling API's to fill Trainer Pokemon Info
+    pokemonAPI1(330)
+    pokemonAPI2(149)
+    pokemonAPI3(635)
     
     // Closing all statboxes to clean screen
-    claireStatbox.style.display = 'none'
-    jomirStatbox.style.display = 'none'
-    brandonStatbox.style.display = 'none'
-    harounStatbox.style.display = 'none'
+    Statbox.style.display = 'none'
+    
 
     // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/goldtrainer.jpg')
@@ -138,12 +133,12 @@ function trainer3() {
     pokesprite1.setAttribute("src", 'img/flygon.png')
     pokesprite2.setAttribute("src", 'img/dragonite.png')
     pokesprite3.setAttribute("src", 'img/hydreigon.png')
-    pokesprite1.setAttribute("onclick", 'brandonstatboxOpen()')
-    pokesprite2.setAttribute("onclick", 'brandonstatboxOpen()')
-    pokesprite3.setAttribute("onclick", 'brandonstatboxOpen()') 
+    pokesprite1.setAttribute("onclick", 'statboxOpen()')
+    pokesprite2.setAttribute("onclick", 'statboxOpen()')
+    pokesprite3.setAttribute("onclick", 'statboxOpen()') 
 }
 
-// Function to reveal Trainer 4 information
+// Function to reveal Trainer 4 (Haroun) information
 
 function trainer4() {
 
@@ -154,11 +149,13 @@ function trainer4() {
     charPortrait.style.display = 'grid'
     pokeSprites.style.display = 'grid'
 
+    // Calling API's to fill Trainer Pokemon Info
+    pokemonAPI1(94)
+    pokemonAPI2(623)
+    pokemonAPI3(680)
+
     // Closing all statboxes to clean screen
-    claireStatbox.style.display = 'none'
-    jomirStatbox.style.display = 'none'
-    brandonStatbox.style.display = 'none'
-    harounStatbox.style.display = 'none'
+    Statbox.style.display = 'none'
 
     // Displaying trainer image and pokemon sprites
     gymLeader.setAttribute("src", 'img/jamestrainer.jpg')
@@ -166,7 +163,7 @@ function trainer4() {
     pokesprite1.setAttribute("src", 'img/gengar.png')
     pokesprite2.setAttribute("src", 'img/golurk.png')
     pokesprite3.setAttribute("src", 'img/doublade.png')
-    pokesprite1.setAttribute("onclick", 'harounstatboxOpen()')
-    pokesprite2.setAttribute("onclick", 'harounstatboxOpen()') 
-    pokesprite3.setAttribute("onclick", 'harounstatboxOpen()') 
+    pokesprite1.setAttribute("onclick", 'statboxOpen()')
+    pokesprite2.setAttribute("onclick", 'statboxOpen()') 
+    pokesprite3.setAttribute("onclick", 'statboxOpen()') 
 }
