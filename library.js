@@ -195,18 +195,6 @@ catchDoublade()
 catchSylveon()
 catchMawile()
 catchTapu_lele()
-// myfunction(303)// statbox1
-// myfunction(700)// statbox2
-// myfunction(786)// statbox3
-// myfunction(727)// statbox4
-// myfunction(257)// statbox5
-// myfunction(6)// statbox6
-// myfunction(330)// statbox7
-// myfunction(149)// statbox8
-// myfunction(635)//statbox9
-// myfunction(94)// statbox10
-// myfunction(623)// statbox11
-// myfunction(680)// statbox12
 let trainers2 = new Trainer('Jomir')
 let trainers1 = new Trainer('Claire')
 let trainers4 = new Trainer('Haroun')
