@@ -43,7 +43,7 @@ let pokemonAPI1 = async (id) => {
         pokeAbility1.appendChild(document.createTextNode(''))
         
         for (let i = 0; i < data.abilities.length; i++) {
-            pokeAbility1.appendChild(document.createTextNode([`${data.abilities[i].ability.name},`]))
+            pokeAbility1.appendChild(document.createTextNode([`${data.abilities[i].ability.name}, `]))
         }
 
         pokeStats1.appendChild(pokeName1)
@@ -81,7 +81,7 @@ let pokemonAPI2 = async (id) => {
     pokeAbility2.appendChild(document.createTextNode(''))
     
     for (let i = 0; i < data.abilities.length; i++) {
-        pokeAbility2.appendChild(document.createTextNode([`${data.abilities[i].ability.name},`]))
+        pokeAbility2.appendChild(document.createTextNode([`${data.abilities[i].ability.name}, `]))
     }
 
     pokeStats2.appendChild(pokeName2)
@@ -118,7 +118,7 @@ let pokemonAPI3 = async (id) => {
     pokeAbility3.appendChild(document.createTextNode(''))
     
     for (let i = 0; i < data.abilities.length; i++) {
-        pokeAbility3.appendChild(document.createTextNode([`${data.abilities[i].ability.name}|`]))
+        pokeAbility3.appendChild(document.createTextNode([`${data.abilities[i].ability.name}, `]))
     }
 
     pokeStats3.appendChild(pokeName3)
