@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+  font-family: 'Quicksand';
+  background-color: #1d1d1d;
+}
+
+/* Styling for Trainer Icons at the top of screen */
+
+#charIcons {
+  display: grid;
+  grid-template: repeat(1, 200px) / repeat(4, 200px);
+  position: absolute;
+  align-items: center;
+  justify-items: center;
+  column-gap: 10%;
+  left: 12%;
+  top: 4%;
+  cursor: pointer;
+}
+
+#charIcons h1 {
+  background-color: white;
+}
+
+/* Styling for portraits of trainer character */
+
+#charPortrait {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(1, 450px) / repeat(1, 300px);
+  background-color: white;
+  top: 33%;
+  left: 11%;
+}
+
+/* Fade in and out classes for JS insertion */
+
+.fadeIn {
+  animation: fadeIn 1.1s 1 0s linear;
+}
+
+.fadeOut {
+  animation: fadeOut 1.1s 1 0s linear;
+}
+
+/* Fade-in animation that is added to IDs via JS */
+
+@keyframes fadeIn {
+  0%{
+      opacity: 0;
+      }
+  16%{
+      opacity: 0.2;
+      }
+  40%{
+      opacity: 0.4;
+      }
+  66%{
+      opacity: 0.6;
+      }
+  85%{
+      opacity: 0.8;
+      }
+  100%{
+      opacity: 1;
+      }
+}
+
+/* Fadeout Animation that is added to IDs via JS */
+
+@keyframes fadeOut {
+  0%{
+      opacity: 1;
+      }
+  16%{
+      opacity: 0.8;
+      }
+  40%{
+      opacity: 0.6;
+      }
+  66%{
+      opacity: 0.4;
+      }
+  85%{
+      opacity: 0.2;
+      }
+  100%{
+      opacity: 0;
+      }
+}
+
+
+/* Styling for trainer nameplate */
+
+#charName {
+  display: grid;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+}
+
+/* Styling for Pokemon Sprites */
+
+#pokeSprites {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(3, 119px) / repeat(1, 100px);
+  /* background-color: white; */
+  top: 32%;
+  left: 33%;
+  row-gap: 13%;
+  cursor: pointer;
+}
+
+#pokeSprites h1 {
+  background-color: white;
+}
+
+/* Styling for the statboxes associated with each Pokemon. Each UL styling is for the statbox itself */
+
+#Statbox {
+  display: grid;
+  position: absolute;
+  grid-template: repeat(3,130px) / repeat(1, 600px);
+  top: 33%;
+  row-gap: 10%;
+  left: 42%;
+}
+
+
+#statboxinfo {
+  position: absolute;
+}
+
+#statbox1 {
+  display: grid;
+  position: relative;
+  grid-template: repeat(1, 130px) / repeat(4, 150px);
+  background-color: white;
+  /* top: 33%;
+  left: 42%; */
+}
+
+#statbox1 ul {
+  display: grid;
+  grid-template: repeat(1, 130px) / repeat(5, 96px);
+  position: absolute;
+  left: 0%;
+  color: #ffffff;
+  list-style: none;
+}
+
+
+#statbox2 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 55%;
+  left: 42%; */
+}
+
+#statbox2 ul {
+  display: grid;
+  grid-template: repeat(1, 130px) / repeat(5, 96px);
+  position: absolute;
+  left: 0%;
+  color: #ffffff;
+  list-style: none;
+}
+
+#statbox3 {
+  display: grid;
+  position: relative;
+  /* grid-template: repeat(1, 130px) / repeat(1, 600px); */
+  background-color: white;
+  /* top: 78%;
+  left: 42%; */
+}
+
+#statbox3 ul {
+  display: grid;
+  grid-template: repeat(1, 130px) / repeat(5, 96px);
+  position: absolute;
+  left: 0%;
+  color: #ffffff;
+  list-style: none;
+}
+
+/* Simple styling for ELITE FOUR Logo on the left side of screen */
+
+#siteName {
+  display: grid;
+  position: absolute;
+}
