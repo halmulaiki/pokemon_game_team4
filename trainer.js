@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let pokeStats1 = document.getElementById('stats1')
 let pokeStats2 = document.getElementById('stats2')
 let pokeStats3 = document.getElementById('stats3')
@@ -129,3 +130,5 @@ let pokemonAPI3 = async (id) => {
 }
 pokemon3()
 }
+=======
+>>>>>>> deb948d399fadf039862a959b9660d427e5b6b52
