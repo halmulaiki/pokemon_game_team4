@@ -22,7 +22,7 @@ let pokemonAPI1 = async (id) => {
   let req = await fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`)
   let data = await req.json()
 
-  console.log(data)
+  //console.log(data)
 
   pokemon1 = () => {
 
@@ -33,15 +33,15 @@ let pokemonAPI1 = async (id) => {
         pokeAbility1.innerText = 'Abilities: '
 
         pokeName1.appendChild(document.createTextNode(`${data.name}`))
-        
+
         pokeHP1.appendChild(document.createTextNode(`${data.stats[5].base_stat}`))
-        
+
         pokeAtk1.appendChild(document.createTextNode(`${data.stats[4].base_stat}`))
-        
+
         pokeDef1.appendChild(document.createTextNode(`${data.stats[3].base_stat}`))
 
         pokeAbility1.appendChild(document.createTextNode(''))
-        
+
         for (let i = 0; i < data.abilities.length; i++) {
             pokeAbility1.appendChild(document.createTextNode([`${data.abilities[i].ability.name}, `]))
         }
@@ -60,7 +60,7 @@ let pokemonAPI2 = async (id) => {
   let req = await fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`)
   let data = await req.json()
 
-  console.log(data)
+//  console.log(data)
 
   pokemon2 = () => {
 
@@ -71,15 +71,15 @@ let pokemonAPI2 = async (id) => {
     pokeAbility2.innerText = 'Abilities: '
 
     pokeName2.appendChild(document.createTextNode(`${data.name}`))
-    
+
     pokeHP2.appendChild(document.createTextNode(`${data.stats[5].base_stat}`))
-    
+
     pokeAtk2.appendChild(document.createTextNode(`${data.stats[4].base_stat}`))
-    
+
     pokeDef2.appendChild(document.createTextNode(`${data.stats[3].base_stat}`))
 
     pokeAbility2.appendChild(document.createTextNode(''))
-    
+
     for (let i = 0; i < data.abilities.length; i++) {
         pokeAbility2.appendChild(document.createTextNode([`${data.abilities[i].ability.name}, `]))
     }
@@ -98,7 +98,7 @@ let pokemonAPI3 = async (id) => {
   let req = await fetch(`https://fizal.me/pokeapi/api/v2/id/${id}.json`)
   let data = await req.json()
 
-  console.log(data)
+  // console.log(data)
 
   pokemon3 = () => {
     pokeName3.innerText = ''
@@ -108,15 +108,15 @@ let pokemonAPI3 = async (id) => {
     pokeAbility3.innerText = 'Abilities: '
 
     pokeName3.appendChild(document.createTextNode(`${data.name}`))
-    
+
     pokeHP3.appendChild(document.createTextNode(`${data.stats[5].base_stat}`))
-    
+
     pokeAtk3.appendChild(document.createTextNode(`${data.stats[4].base_stat}`))
-    
+
     pokeDef3.appendChild(document.createTextNode(`${data.stats[3].base_stat}`))
 
     pokeAbility3.appendChild(document.createTextNode(''))
-    
+
     for (let i = 0; i < data.abilities.length; i++) {
         pokeAbility3.appendChild(document.createTextNode([`${data.abilities[i].ability.name}, `]))
     }

@@ -86,19 +86,6 @@ catchFlygon = () => {
 
         }))
 }
-
-catchHydreigon = () => {
-    fetch("https://fizal.me/pokeapi/api/v2/id/635.json")
-        .then((resp) => {
-            return resp.json()
-        })
-        .then((data => {
-
-            pokemon = new Pokemon(data)
-            trainers4.addPokemonToParty(pokemon)
-
-        }))
-}
 catchDragonite = () => {
     fetch("https://fizal.me/pokeapi/api/v2/id/149.json")
         .then((resp) => {
@@ -111,6 +98,19 @@ catchDragonite = () => {
 
         }))
 }
+catchHydreigon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/635.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers4.addPokemonToParty(pokemon)
+
+        }))
+}
+
 catchGengar = () => {
     fetch("https://fizal.me/pokeapi/api/v2/id/94.json")
         .then((resp) => {
@@ -147,18 +147,6 @@ catchDoublade = () => {
 
         }))
 }
-catchSylveon = () => {
-    fetch("https://fizal.me/pokeapi/api/v2/id/700.json")
-        .then((resp) => {
-            return resp.json()
-        })
-        .then((data => {
-
-            pokemon = new Pokemon(data)
-            trainers1.addPokemonToParty(pokemon)
-
-        }))
-}
 catchMawile = () => {
     fetch("https://fizal.me/pokeapi/api/v2/id/303.json")
         .then((resp) => {
@@ -171,6 +159,19 @@ catchMawile = () => {
 
         }))
 }
+catchSylveon = () => {
+    fetch("https://fizal.me/pokeapi/api/v2/id/700.json")
+        .then((resp) => {
+            return resp.json()
+        })
+        .then((data => {
+
+            pokemon = new Pokemon(data)
+            trainers1.addPokemonToParty(pokemon)
+
+        }))
+}
+
 catchTapu_lele = () => {
     fetch("https://fizal.me/pokeapi/api/v2/id/786.json")
         .then((resp) => {
@@ -183,18 +184,23 @@ catchTapu_lele = () => {
 
         }))
 }
+catchMawile()
+catchSylveon()
+catchTapu_lele()
+
 catchIncineroar()
 catchBlaziken()
 catchCharizard()
 catchFlygon()
-catchHydreigon()
 catchDragonite()
+catchHydreigon()
+
 catchGengar()
 catchGolurk()
 catchDoublade()
-catchSylveon()
-catchMawile()
-catchTapu_lele()
+
+
+
 let trainers2 = new Trainer('Jomir')
 let trainers1 = new Trainer('Claire')
 let trainers4 = new Trainer('Haroun')
